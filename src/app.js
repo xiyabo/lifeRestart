@@ -203,7 +203,7 @@ class App{
                     return;
                 }
                 talentPage.find('#next').hide()
-                this.#totalMax = 20 + this.#life.getTalentAllocationAddition(Array.from(this.#talentSelected).map(({id})=>id));
+                this.#totalMax = 50000 + this.#life.getTalentAllocationAddition(Array.from(this.#talentSelected).map(({id})=>id));
                 this.switch('property');
             })
 
